@@ -35,7 +35,7 @@ function App() {
           <Routes>
             <Route exact path="/about" element={<About />} />
             <Route path="/" element={<TextForm heading="Enter text to analyze" mode={mode} />} />
-            <Route exact path="/textTwist" element={<TextTwist />} />
+            <Route exact path="/textTwist" element={<TextTwist  mode={mode}/>} />
           </Routes>
         </div>
       </Router>

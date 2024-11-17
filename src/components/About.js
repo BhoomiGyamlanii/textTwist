@@ -28,6 +28,7 @@ export default function About() {
   return (
     <div className="container" style={myStyle}>
       <h1 className="my-3"> About Us</h1>
+      <p>
       The Text Twist is designed to transform text in various ways, making it
       easier to adapt written content for different needs. It provides a range
       of functions, including rephrasing, translating, summarizing, and changing
@@ -36,6 +37,10 @@ export default function About() {
       effectively and save time. With an intuitive interface, users can easily
       upload or type their text, choose the conversion style, and see the
       results instantly.
+      </p>
+      <button className="btn btn-primary" onClick={toggleBtn}>
+        {btnText}
+      </button>
     </div>
   );
 }

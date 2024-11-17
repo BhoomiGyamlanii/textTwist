@@ -1,16 +1,19 @@
 import React from 'react';
 
-function TextTwist() {
+function TextTwist({ mode }) {
+    const textStyle = {
+        color: mode === 'dark' ? 'white' : '#042743', 
+        display: 'flex',
+        justifyContent: 'center',
+        alignItems: 'center',
+        height: '60vh',
+        textAlign: 'center',
+    };
+
     return (
         <div 
           className="texttwist-container"
-          style={{
-            display: 'flex',
-            justifyContent: 'center',
-            alignItems: 'center',
-            height: '60vh',
-            textAlign: 'center',
-          }}
+           style={textStyle}
         >
           <div>
             <h1>Welcome to TextTwist</h1>
