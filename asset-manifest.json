@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/textTwist/static/css/main.f855e6bc.css",
-    "main.js": "/textTwist/static/js/main.41fc71d8.js",
+    "main.js": "/textTwist/static/js/main.2a262fd9.js",
     "static/js/453.49528de3.chunk.js": "/textTwist/static/js/453.49528de3.chunk.js",
     "index.html": "/textTwist/index.html",
     "main.f855e6bc.css.map": "/textTwist/static/css/main.f855e6bc.css.map",
-    "main.41fc71d8.js.map": "/textTwist/static/js/main.41fc71d8.js.map",
+    "main.2a262fd9.js.map": "/textTwist/static/js/main.2a262fd9.js.map",
     "453.49528de3.chunk.js.map": "/textTwist/static/js/453.49528de3.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.f855e6bc.css",
-    "static/js/main.41fc71d8.js"
+    "static/js/main.2a262fd9.js"
   ]
 }
